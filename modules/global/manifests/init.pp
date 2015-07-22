@@ -1,6 +1,7 @@
 # Global defaults
 #
 class global {
+  class { '::locales': }
   package {['vim','puppet']:
     ensure => latest,
   }
