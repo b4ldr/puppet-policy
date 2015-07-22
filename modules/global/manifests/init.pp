@@ -10,6 +10,7 @@ class global {
   }
   file { '/usr/local/bin/run_puppet.sh':
     ensure  => present,
+    mode    => '0555',
     content => template('global/usr/local/bin/run_puppet.sh.erb'),
   }
 }
