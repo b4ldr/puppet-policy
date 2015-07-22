@@ -1,0 +1,5 @@
+#!/bin/sh
+PATH=/usr/bin
+cd /srv/puppet/puppet-policy/
+git pull
+puppet apply --modulepath=/srv/puppet/puppet-policy/modules/ --parser future --hiera_config=/srv/puppet/puppet-policy/hiera.yaml manifests/<%= @fqdn %>.pp
