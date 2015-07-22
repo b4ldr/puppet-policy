@@ -7,3 +7,6 @@
 [submodule "modules/prosody"]
 	path = modules/prosody
 	url = https://github.com/mayflower/puppet-prosody
+[submodule "modules/openssl"]
+	path = modules/openssl
+	url = https://github.com/camptocamp/puppet-openssl
