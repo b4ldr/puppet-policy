@@ -1,0 +1,5 @@
+prosody::admins:
+- john.r.bond@gmail.com
+prosody::components:
+  'conference.johnbond.org':
+    type: muc
