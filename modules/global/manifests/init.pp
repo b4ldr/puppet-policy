@@ -13,4 +13,8 @@ class global {
     mode    => '0555',
     content => template('global/usr/local/bin/run_puppet.sh.erb'),
   }
+  file { '/etc/puppet/puppet.conf':
+    ensure => present,
+    source => 'puppet:///modules/global/etc/puppet/puppet.conf',
+  }
 }
