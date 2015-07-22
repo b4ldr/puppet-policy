@@ -2,7 +2,7 @@
 #
 class global {
   class { '::locales': }
-  package {['vim','puppet']:
+  package {['vim','puppet','bash-completion']:
     ensure => latest,
   }
   file { '/srv/puppet/puppet-policy/hiera.yaml':
