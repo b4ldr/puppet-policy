@@ -1,7 +1,7 @@
 prosody::admins:
 - john.r.bond@gmail.com
 prosody::components:
-  'conference.johnbond.org':
+  'chat.johnbond.org':
     type: muc
 prosody::user: prosody
 prosody::virtualhosts:
