@@ -10,3 +10,6 @@
 [submodule "modules/openssl"]
 	path = modules/openssl
 	url = https://github.com/camptocamp/puppet-openssl
+[submodule "modules/users"]
+	path = modules/users
+	url = https://github.com/dmcnicks/dmcnicks-users

@@ -1,0 +1,8 @@
+users::users:
+  john:
+    uid: 1000
+    realname: 'John Bond'
+    groups: 
+    - sudo
+    sshkeys: 
+    - 'ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAvwlmC8saVhtq7dWQTigIB+jhfSzya9OZi/DT3VSFuuQm+x91Zgik+1x93W20MpVjScET0xXH1S/joe5ZxcW7vR0mjFYJXhx4+zNq6nhOqpr8RAFsrVc42emXlar2RCNeQYPAI1ZgVXpUyKSmIkEqAbhdJr99k4vxH3q1uSKM6AgqqlzYg5OXFLIeZQHnciaBr9ZzsDADZs6xXxy2yhrO+W/I24Iw75vB8FUA/e9ip0yDJ/cpBZwuK4E4iROWeEdIFFzQ9TQHAPhJQagQByRdVWGK/93lZdW7jSslUb9bjdybqOLY5kUuHekJR95xQKYXdP9ptcY/hUI7RMnMksDIiw== jbond'

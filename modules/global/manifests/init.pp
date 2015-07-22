@@ -2,6 +2,7 @@
 #
 class global {
   class { '::locales': }
+  class { '::users': }
   package {['vim','puppet','bash-completion']:
     ensure => latest,
   }
