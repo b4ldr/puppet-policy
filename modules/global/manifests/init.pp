@@ -20,9 +20,10 @@ class global {
     source => 'puppet:///modules/global/etc/puppet/puppet.conf',
   }
   cron {'puppet run':
-    command => '/usr/local/bin/run_puppet.sh',
-    minute  => '*/30',
-    require => File[
+    command     => '/usr/local/bin/run_puppet.sh',
+    minute      => '*/30',
+    environment => 'EMAIL=john.r.bond@gmail.com',
+    require     => File[
       '/etc/puppet/puppet.conf',
       '/usr/local/bin/run_puppet.sh',
       '/srv/puppet/puppet-policy/hiera.yaml']
