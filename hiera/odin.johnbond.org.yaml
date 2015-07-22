@@ -5,6 +5,7 @@ prosody::components:
     type: muc
 prosody::user: prosody
 prosody::s2s_require_encryption: false
+prosody::s2s_secure_auth: false
 prosody::virtualhosts:
   'johnbond.org':
     ssl_key:  '/etc/ssl/certs/odin.johnbond.org.key'
