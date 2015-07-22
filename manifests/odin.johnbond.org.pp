@@ -7,9 +7,9 @@ node default {
     commonname   => $::fqdn,
   }
   prosody::virtualhost {'johnbond.org':
-    ensure  => present,
-    require => Openssl::Certificate::X509[$::fqdn],
+    ensure   => present,
+    ssl_key  => '/etc/ssl/certs/odin.johnbond.org.key',
+    ssl_cert => '/etc/ssl/certs/odin.johnbond.org.crt',
+    require  => Openssl::Certificate::X509[$::fqdn],
   }
-
-
 }
