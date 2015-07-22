@@ -2,4 +2,6 @@
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 cd /srv/puppet/puppet-policy/
 git pull
+git submodule update
+git submodule sync
 puppet apply --modulepath=/srv/puppet/puppet-policy/modules/ --parser future --hiera_config=/srv/puppet/puppet-policy/hiera.yaml manifests/<%= @fqdn %>.pp
