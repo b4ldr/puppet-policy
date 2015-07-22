@@ -4,3 +4,6 @@
 [submodule "modules/locales"]
 	path = modules/locales
 	url = https://github.com/saz/puppet-locales
+[submodule "modules/prosody"]
+	path = modules/prosody
+	url = https://github.com/mayflower/puppet-prosody
