@@ -4,6 +4,7 @@ prosody::components:
   'chat.johnbond.org':
     type: muc
 prosody::user: prosody
+prosody::s2s_require_encryption: false
 prosody::virtualhosts:
   'johnbond.org':
     ssl_key:  '/etc/ssl/certs/odin.johnbond.org.key'
