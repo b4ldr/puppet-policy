@@ -2,7 +2,7 @@
 #
 class global {
   class { '::apt': }
-  class { '::apt::update': }
+  include apt::update
   class { '::locales': }
   class { '::users': }
   package {['vim','puppet','bash-completion']:
