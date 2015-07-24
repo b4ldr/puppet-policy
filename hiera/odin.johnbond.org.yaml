@@ -6,6 +6,7 @@ gitlab::gitlab_rails:
   omniauth_enabled: true
   smtp_enable: true
   smtp_address: localhost
+  smtp_enable_starttls_auto: false
 prosody::admins:
 - john.r.bond@gmail.com
 prosody::components:
