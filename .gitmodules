@@ -13,3 +13,9 @@
 [submodule "modules/users"]
 	path = modules/users
 	url = https://github.com/b4ldr/dmcnicks-users
+[submodule "modules/gitlab"]
+	path = modules/gitlab
+	url = https://github.com/vshn/puppet-gitlab
+[submodule "modules/apt"]
+	path = modules/apt
+	url = https://github.com/puppetlabs/puppetlabs-apt

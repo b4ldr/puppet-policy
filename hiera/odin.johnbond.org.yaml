@@ -1,3 +1,4 @@
+gitlab::external_url: 'http://git.johnbond.org'
 prosody::admins:
 - john.r.bond@gmail.com
 prosody::components:
