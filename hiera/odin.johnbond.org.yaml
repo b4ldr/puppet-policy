@@ -3,6 +3,7 @@ gitlab::gitlab_rails:
   gitlab_email_enabled: true
   gitlab_email_from: git@johnbond.org
   gitlab_email_reply_to: noreply@johnbond.org
+  smtp_domain: johnbond.org
   omniauth_enabled: true
   smtp_enable: true
   smtp_address: localhost
