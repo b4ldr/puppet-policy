@@ -5,7 +5,7 @@ class global {
   include apt::update
   class { '::locales': }
   class { '::users': }
-  package {['vim','puppet','bash-completion']:
+  package {['vim','puppet','bash-completion','mailutils']:
     ensure => latest,
   }
   file { '/srv/puppet/puppet-policy/hiera.yaml':
