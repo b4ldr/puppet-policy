@@ -1,6 +1,8 @@
 # Global defaults
 #
 class global {
+  class { '::apt': }
+  class { '::apt::update': }
   class { '::locales': }
   class { '::users': }
   package {['vim','puppet','bash-completion']:
