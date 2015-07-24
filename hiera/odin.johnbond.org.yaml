@@ -1,4 +1,9 @@
 gitlab::external_url: 'http://git.johnbond.org'
+gitlab::gitlab_rails:
+  gitlab_email_enabled: true
+  gitlab_email_from: git@johnbond.org
+  gitlab_email_reply_to: noreply@johnbond.org
+  omniauth_enabled: true
 prosody::admins:
 - john.r.bond@gmail.com
 prosody::components:
