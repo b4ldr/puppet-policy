@@ -8,6 +8,8 @@ gitlab::gitlab_rails:
   smtp_enable: true
   smtp_address: localhost
   smtp_enable_starttls_auto: false
+gitlab::unicorn:
+  worker_processes: 1
 gitlab::nginx:
   worker_processes: 2
 prosody::admins:
