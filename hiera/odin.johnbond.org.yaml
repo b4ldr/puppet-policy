@@ -11,7 +11,7 @@ gitlab::gitlab_rails:
 gitlab::unicorn:
   worker_processes: 1
 gitlab::nginx:
-  worker_processes: 2
+  worker_processes: 1
 prosody::admins:
 - john.r.bond@gmail.com
 prosody::components:
